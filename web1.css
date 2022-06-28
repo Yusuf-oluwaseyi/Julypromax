@@ -5,12 +5,12 @@ body {
 h1 {
     margin: 0%;
 }
-.top-container{
-    /*background-color: aquamarine;
+/*.top-container{
+    background-color: aquamarine;
     height: 200px;
-    width: 200px;*/
+    width: 200px;
 }
-/*.middle-container {
+.middle-container {
     background-color: yellow;
     height: 200px;
     width: 200px;
