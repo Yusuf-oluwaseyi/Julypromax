@@ -47,3 +47,21 @@ h1 {
     display: inline-block;
 }
 */
+.red {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    display: inline-block;
+}
+.blue {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    display: inline-block;
+}
+.yellow {
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    display: inline-block;
+}
