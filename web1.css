@@ -76,6 +76,11 @@ p {
     margin-left: 25%;
     margin-right: 25%;
 }
+.contact-msg {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 100px;
+}
 /*.top-container{
     background-color: aquamarine;
     height: 200px;
