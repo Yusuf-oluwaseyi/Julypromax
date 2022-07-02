@@ -66,9 +66,15 @@ p {
 }
 .skill{
     margin-top: 50px;
-padding: 25px;
-margin-left: 25%;
-margin-right: 25%;
+    padding: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.touch {
+    margin-top: 50px;
+    padding: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 /*.top-container{
     background-color: aquamarine;
