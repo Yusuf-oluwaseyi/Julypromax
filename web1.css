@@ -36,6 +36,11 @@ a {
     right: 300px;
     top: 100px;
 }
+.skill-row {
+    /* display: inline-block; */
+    width: 50%;
+    margin: 100px auto 100px auto;
+}
 /*.top-container{
     background-color: aquamarine;
     height: 200px;
