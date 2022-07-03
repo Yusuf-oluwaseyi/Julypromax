@@ -81,6 +81,11 @@ p {
     margin: auto;
     margin-bottom: 25px;
 }
+.copy-right {
+    color:#EAF6FE;
+    padding: 20px 0;
+    font-size: 0.75rem;
+}
 .btn {
     color: #66BFBF;
     background-color: #C2DED1;
