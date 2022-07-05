@@ -1,0 +1,33 @@
+.banner-image {
+    background-image: url(images/wallpaperflare.com_wallpaper\(1\).jpg);
+    background-size: cover;
+}
+.img-text {
+    margin: 200px 100px;
+}
+.dur{
+    color: #f9fbfa;
+    font-size: 20px;
+    font-weight: bold;
+}
+.line2 {
+    color: #f9fbfa;
+    font-size: 40px;
+    font-weight: bold;
+} 
+.line3 {
+    color: #f9fbfa;
+    font-weight: bold;
+    width: 55%;
+}
+.line4 {
+    color: #f9fbfa;
+    font-size: 20px;
+    font-weight: bold;
+}
+button {
+    border-radius: 20px;
+    background-color: #dd0606;
+    color: white;
+    border: #dd0606;
+}
