@@ -2,7 +2,7 @@
     background-color: #c8bcaf;
 }
 .container-fluid {
-    padding: 3% 15%;
+    padding: 1% 15%;
 }
 .logo {
     font-family: 'Monoton', cursive;
@@ -14,7 +14,7 @@ h1 {
 }
 nav {
     margin-bottom: 10px;
-    margin-top: -50px;
+    margin-top: 5px;
 }
 li {
     padding: 10px;
