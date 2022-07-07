@@ -10,6 +10,11 @@ body {
 .navbar {
     padding-left: 2px;
 }
+a:hover{
+    background-color: #7b4c2d;
+    border-radius: 5px;
+}
+
 .logo {
     font-family: 'Monoton', cursive;
     font-size: 2rem;
@@ -28,4 +33,9 @@ li {
 }
 .download-button{
     margin: 5% 3% 5% 0;
+}
+.title-img {
+    width: 100%;
+    border-radius: 70px;
+    transform: rotate(5deg);
 }
