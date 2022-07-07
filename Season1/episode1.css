@@ -13,7 +13,7 @@ p {
 .navbar {
     padding-left: 2px;
 }
-a:hover{
+.nav-link:hover{
     background-color: #7b4c2d;
     border-radius: 5px;
 }
@@ -51,4 +51,11 @@ li {
     text-align: center;
     padding: 5%;
     font-family: 'Marcellus-bold', serif;
+}
+.Icon {
+    color: #c8bcaf;
+    margin-bottom: 0.5rem;
+}
+.Icon:hover{
+    color: #7b4c2d;
 }
