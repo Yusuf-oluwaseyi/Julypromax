@@ -7,6 +7,9 @@ body {
 .container-fluid {
     padding: 1% 15%;
 }
+.navbar {
+    padding-left: 2px;
+}
 .logo {
     font-family: 'Monoton', cursive;
     font-size: 2rem;
