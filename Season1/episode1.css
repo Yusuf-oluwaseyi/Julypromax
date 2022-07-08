@@ -27,6 +27,12 @@ h1 {
     font-size: 4rem;
     line-height: 1.5;
 }
+h2 {
+    font-family: 'Marcellus', serif;
+    font-size: 3rem;
+    line-height: 1;
+
+}
 nav {
     margin-bottom: 10px;
     margin-top: 5px;
@@ -65,4 +71,19 @@ li {
     background-color: #c8bcaf;
     text-align: center;
     padding: 7% 15%; 
+}
+.test-img {
+    width: 10%;
+    border-radius: 80%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #c8bcaf;
+    padding-bottom: 3%;
+    text-align: center;
+}
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
 }
