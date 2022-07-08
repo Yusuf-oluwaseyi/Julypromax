@@ -59,3 +59,10 @@ li {
 .Icon:hover{
     color: #7b4c2d;
 }
+
+/* testimonials */
+#testimonials {
+    background-color: #c8bcaf;
+    text-align: center;
+    padding: 7% 15%; 
+}
