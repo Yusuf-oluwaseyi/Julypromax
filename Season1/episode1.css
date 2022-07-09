@@ -31,6 +31,7 @@ h2 {
     font-family: 'Marcellus', serif;
     font-size: 3rem;
     line-height: 1;
+    color: #fff;
 
 }
 nav {
@@ -69,8 +70,7 @@ li {
 /* testimonials */
 #testimonials {
     background-color: #c8bcaf;
-    text-align: center;
-    padding: 7% 15%; 
+    text-align: center; 
 }
 .test-img {
     width: 10%;
@@ -86,4 +86,7 @@ li {
 .press-logo {
     width: 15%;
     margin: 20px 20px 50px;
+}
+.carousel-item {
+    padding: 7% 15%;
 }
