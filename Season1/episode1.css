@@ -46,12 +46,16 @@ li {
 .title-img {
     width: 100%;
     border-radius: 70px;
-    transform: rotate(5deg);
+    transform: rotate(10deg);
+    position: absolute;
 }
 
 /* features */
 #features {
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
 }
 .feature-box {
     text-align: center;
