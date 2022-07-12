@@ -1,7 +1,11 @@
-
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 400px;
+    font-weight: bold;
+}
 .container-fluid {
     position: absolute;
-    padding: 5% 5%;
+    padding: 10% 5%;
 }
 .image {
     position: relative;
