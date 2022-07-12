@@ -105,6 +105,28 @@ li {
     padding: 3% 2%;
 }
 
+#cta {
+    background-color: #c8bcaf;
+    padding: 7% 15%;
+    text-align: center;
+}
+.cta {
+    color: #fff;
+    font-size: 3rem;
+}
+.download-button {
+    border-color: #fff;
+}
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+.foot {
+    font-family: 'Moniton', cursive;
+}
+.social-icon {
+    margin: 5px;
+}
 @media (max-width: 985px) {
     #title {
         text-align: center;
