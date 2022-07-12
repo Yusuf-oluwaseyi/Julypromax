@@ -1,0 +1,29 @@
+
+.container-fluid {
+    position: absolute;
+    padding: 5% 5%;
+}
+.image {
+    position: relative;
+    left: 500px;
+    width: 800px;
+}
+img {
+    height: 650px;
+    width: 749px;
+    margin-left: 99px;
+}
+.user {
+    width: 25%;
+    height: 50px;
+    border: 2px solid #eee;
+    border-radius: 7px;
+    margin: 10px;
+}
+.login {
+    width: 400px;
+    height: 50px;
+}
+a {
+    margin-left: 50px;
+}
