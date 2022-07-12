@@ -136,7 +136,8 @@ li {
         position: static;
         transform: rotate(0);
     }
-    .Icon:hover {
-        color: #7b4c2d;
+    .cta {
+        width: 300px;
+        text-align: center;
     }
 }
