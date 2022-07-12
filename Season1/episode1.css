@@ -107,12 +107,13 @@ li {
 
 #cta {
     background-color: #c8bcaf;
-    padding: 7% 15%;
+    padding: 7% 20%;
     text-align: center;
 }
 .cta {
     color: #fff;
     font-size: 3rem;
+    width: 800px;
 }
 .download-button {
     border-color: #fff;
