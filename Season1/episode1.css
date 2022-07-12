@@ -125,7 +125,7 @@ li {
     font-family: 'Moniton', cursive;
 }
 .social-icon {
-    margin: 5px;
+    margin: 20px 10px;
 }
 @media (max-width: 985px) {
     #title {
@@ -134,5 +134,8 @@ li {
     .title-img {
         position: static;
         transform: rotate(0);
+    }
+    .Icon:hover {
+        color: #7b4c2d;
     }
 }
