@@ -55,7 +55,6 @@ li {
     padding: 7% 15%;
     background-color: #fff;
     position: relative;
-    z-index: 1;
 }
 .feature-box {
     text-align: center;
@@ -104,4 +103,14 @@ li {
 }
 .pricing-column {
     padding: 3% 2%;
+}
+
+@media (max-width: 985px) {
+    #title {
+        text-align: center;
+    }
+    .title-img {
+        position: static;
+        transform: rotate(0);
+    }
 }
