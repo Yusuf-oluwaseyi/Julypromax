@@ -1,0 +1,26 @@
+body {
+    background-color: #fff;
+}
+header {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 0.889rem;
+    column-gap: 46rem;
+}
+.but-1 {
+    width: 9.278rem;
+    padding: 0.889rem 1.2rem;
+    background-color: #13183e;
+    border-radius: 1.75rem;
+    color: white;
+    font-size: 1rem;
+    line-height: 1.556rem;
+    font-family: 'Signika', sans-serif;
+    font-weight: bold;
+    line-height: 1.5rem;
+}
+.but-1:hover {
+    background-color: #56BBF1;
+    color: black;
+}
