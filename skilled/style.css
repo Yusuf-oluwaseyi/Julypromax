@@ -1,3 +1,8 @@
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow: hidden;
+}
 header {
     margin-top: 2rem;
 }
@@ -15,34 +20,3 @@ header {
     font-weight: 800;
 }
 /* main-section */
-
-main {
-    margin-top: 12rem;
-}
-h1 {
-    width: 50%;
-    font-family: 'Signika', sans-serif;
-    font-size: 70px;
-    font-weight: bold;
-    color: #13183e;
-    line-height: 4rem;
-    margin-bottom: 2.5rem;
-}
-p {
-    color: gray;
-    width: 45%;
-    font-family: 'Signika', sans-serif;
-    line-height: 2rem;
-    font-size: 20px;
-    margin-bottom: 5rem;
-}
-.bot-2 {
-    background: linear-gradient(#fc6553, #f2319a);
-    color: #fff;
-    height: 4rem;
-    width: 11rem;
-    border-radius: 4rem;
-    line-height: 1.55rem;
-    font-family: 'Signika', sans-serif;
-    font-weight: 700;
-}
