@@ -41,4 +41,9 @@ var name = prompt("What is your name");
 firstLetter = name.slice(0,1);
 rest = name.slice(1);
 var newName = alert("Welcome " + firstLetter.toUpperCase() + rest.toLowerCase());
-  
+
+// calculating dog years(testing integers)
+
+var dogAge = prompt("What is your dog age");
+var humanAge = (dogAge - 2)*4 + 21;
+alert("The human age is " + humanAge);
