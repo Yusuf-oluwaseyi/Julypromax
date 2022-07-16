@@ -14,3 +14,13 @@ function test () {
     console.log("b is " + b);
 }
 test ();
+
+// Using .length to count the number of string or character
+
+var tweet = prompt("Tweet");
+var tweetCount = tweet.length
+alert("You have written " + tweet.length + " character" + " You have " + (140-tweet.length) + " Remaining");
+
+// another solution
+
+alert("You have written " + tweet.length + " character" + " You have " + (140-tweet.length) + " Remaining");
