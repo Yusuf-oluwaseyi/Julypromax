@@ -1,22 +1,38 @@
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
 .wrapper {
     max-width: 1440px;
     margin: 0 auto;
     overflow: hidden;
 }
-header {
-    margin-top: 2rem;
+.head {
+    margin-top: 2.5%;
 }
-.img1 {
-    margin-right: 70%;
+button{
+    margin-left: 70%;
 }
-.bot-1 {
+.but-1 {
     height: 4rem;
-    width: 9.278rem;
-    color: white;
-    border-radius: 4rem;
     background-color: #13183e;
-    line-height: 1.55rem;
-    font-family: 'Signika', sans-serif;
-    font-weight: 800;
+    border-radius: 1.5rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    border-color: #13183e;
 }
 /* main-section */
+h1 {
+    color: #13183e;
+    font-weight: bolder;
+    font-size: 4rem;
+    margin-top: 20rem;
+}
+.but-2 {
+    height: 4rem;
+    background: linear-gradient(#fc6553, #f2319a);
+    border-radius: 1.5rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    border-color: #fc6553;
+    margin: 10px;
+}
