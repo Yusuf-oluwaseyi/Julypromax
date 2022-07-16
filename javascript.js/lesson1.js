@@ -63,7 +63,7 @@ getMilk(17);
 
 // calculating bmi and inputting Math.round()
 
-function ibmCalc(weight, height) {
+function bmiCalc(weight, height) {
     var weight = prompt("What's your weight?");
     var height = prompt("What's your height?");
     
@@ -71,4 +71,4 @@ function ibmCalc(weight, height) {
     alert("Your ibm is " + imb);
     
   }
-  ibmCalc();
+  bmiCalc();
