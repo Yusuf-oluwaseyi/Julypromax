@@ -53,6 +53,9 @@ alert("The human age is " + humanAge);
 var cost = 2;
 function getMilk(money) {
   alert("I can buy " + Math.floor(money/cost) + " bottles" + " with " + money + " dollars");
+
+//   adding return 
+        return ("Your change is " + money%cost + " dollars");
   
 }
 
