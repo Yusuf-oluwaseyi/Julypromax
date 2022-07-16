@@ -24,3 +24,13 @@ alert("You have written " + tweet.length + " character" + " You have " + (140-tw
 // another solution
 
 alert("You have written " + tweet.length + " character" + " You have " + (140-tweet.length) + " Remaining");
+
+// another task on slice 
+var tweet = prompt("Tweet");
+var tweetUnder10 = tweet.slice(0,10);
+alert(tweet.slice(0,10));
+alert ("You have written " + tweet.length + " character" + " You have " + (50-tweetUnder10) + " Remaining");
+
+// another solution
+
+var tweet = alert(prompt("Tweet").slice(0,10));
