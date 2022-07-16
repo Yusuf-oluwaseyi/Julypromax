@@ -60,3 +60,15 @@ function getMilk(money) {
 }
 
 getMilk(17);
+
+// calculating bmi and inputting Math.round()
+
+function ibmCalc(weight, height) {
+    var weight = prompt("What's your weight?");
+    var height = prompt("What's your height?");
+    
+    var imb = Math.round(weight/(height*height));
+    alert("Your ibm is " + imb);
+    
+  }
+  ibmCalc();
