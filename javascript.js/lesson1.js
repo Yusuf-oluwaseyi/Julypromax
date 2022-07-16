@@ -34,3 +34,11 @@ alert ("You have written " + tweet.length + " character" + " You have " + (50-tw
 // another solution
 
 var tweet = alert(prompt("Tweet").slice(0,10));
+
+
+// using .toUpperCase and .toLowercase()
+var name = prompt("What is your name");
+firstLetter = name.slice(0,1);
+rest = name.slice(1);
+var newName = alert("Welcome " + firstLetter.toUpperCase() + rest.toLowerCase());
+  
