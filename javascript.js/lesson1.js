@@ -47,3 +47,13 @@ var newName = alert("Welcome " + firstLetter.toUpperCase() + rest.toLowerCase())
 var dogAge = prompt("What is your dog age");
 var humanAge = (dogAge - 2)*4 + 21;
 alert("The human age is " + humanAge);
+
+// learning functions and how to input in a function
+
+var cost = 2;
+function getMilk(money) {
+  alert("I can buy " + Math.floor(money/cost) + " bottles" + " with " + money + " dollars");
+  
+}
+
+getMilk(17);
