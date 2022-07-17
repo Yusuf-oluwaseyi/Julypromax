@@ -115,3 +115,10 @@ function bmiCalc(weight, height) {
     }
     
     isLeap();
+
+    // lesson on arrays and using the .include functiom
+
+    var myEggs = ["easter", "december", "march", "april"];
+
+    var holiday = prompt("What is your holiday?");
+    myEggs.includes(holiday)
