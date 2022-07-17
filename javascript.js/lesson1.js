@@ -118,7 +118,12 @@ function bmiCalc(weight, height) {
 
     // lesson on arrays and using the .include functiom
 
-    var myEggs = ["easter", "december", "march", "april"];
+    var guestLists = ["James", "Bamike", "Itunu", "Glory"];
 
-    var holiday = prompt("What is your holiday?");
-    myEggs.includes(holiday)
+    var guestName = prompt("What is your name?");
+    if (guestLists.includes(guestName)) {
+      alert("Welcome to the party!");
+    }
+    else {
+      alert("Sorry, please get a ticket next time");
+    }
