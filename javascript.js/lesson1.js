@@ -72,3 +72,25 @@ function bmiCalc(weight, height) {
     
   }
   bmiCalc();
+
+  // Calculating love using Math.random(); and comparative
+
+  function lovers () {
+    prompt("What is their name?");
+    prompt("What is your name?");
+    
+    var loveScore = Math.floor(Math.random() * 100 + 1);
+    alert("Your lovescore is " + loveScore + "%");
+    
+    if (loveScore > 50) {
+      alert("You are love birds");
+    }
+    else if (loveScore <= 30) {
+      alert("Water yourselves more");
+    }
+    else {
+      alert ("Run before breakfast show lol");
+    }
+    }
+    lovers();
+    
