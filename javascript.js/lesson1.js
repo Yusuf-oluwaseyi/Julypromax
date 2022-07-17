@@ -93,4 +93,25 @@ function bmiCalc(weight, height) {
     }
     }
     lovers();
+
+    // Using comparatives to check for a leap year, if else statements
+
+    function isLeap() {
+      var year = prompt("Enter the year");
     
+      if (year % 4 === 0) {
+        if (year % 100 === 0) {
+          if (year % 400 === 0) {
+            alert("Leap year")
+          } else {
+            alert("Not a leap year")
+          }
+        } else {
+          alert("Leap year")
+        }
+      } else {
+        alert("Not a leap year");
+      }
+    }
+    
+    isLeap();
