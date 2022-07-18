@@ -127,3 +127,38 @@ function bmiCalc(weight, height) {
     else {
       alert("Sorry, please get a ticket next time");
     }
+
+
+    // FizzBuzz Challenge... Using while loop and .push
+
+    var output = [];
+var i = 1;
+
+
+function FizzBuzz() {
+
+  output.push(i);
+
+  while (i <= 30) {
+    if (i % 5 === 0 && i % 3 == 0) {
+      output.push("FizzBuzz");
+      console.log("FizzBuzz");
+      alert("FizzBuzz");
+    } else if (i % 5 === 0) {
+      output.push("Buzz");
+      console.log("Buzz");
+      alert("Buzz");
+    } else if (i % 3 === 0) {
+      output.push("Fizz");
+      console.log("Fizz");
+      alert("Fizz");
+    } else {
+      alert(i);
+    }
+
+    i++;
+  }
+  console.log(output);
+
+}
+FizzBuzz();
