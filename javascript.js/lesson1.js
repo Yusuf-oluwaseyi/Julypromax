@@ -75,27 +75,28 @@ function bmiCalc(weight, height) {
 
   // Calculating love using Math.random(); and comparative
 
-  function lovers () {
-    prompt("What is their name?");
-    prompt("What is your name?");
+  // function lovers () {
+  //   prompt("What is their name?");
+  //   prompt("What is your name?");
     
-    var loveScore = Math.floor(Math.random() * 100 + 1);
-    alert("Your lovescore is " + loveScore + "%");
+  //   var loveScore = Math.floor(Math.random() * 100 + 1);
+  //   alert("Your lovescore is " + loveScore + "%");
     
-    if (loveScore > 50) {
-      alert("You are love birds");
-    }
-    else if (loveScore <= 30) {
-      alert("Water yourselves more");
-    }
-    else {
-      alert ("Run before breakfast show lol");
-    }
-    }
-    lovers();
+  //   if (loveScore > 50) {
+  //     alert("You are love birds");
+  //   }
+  //   else if (loveScore <= 30) {
+  //     alert("Water yourselves more");
+  //   }
+  //   else {
+  //     alert ("Run before breakfast show lol");
+  //   }
+  //   }
+  //   lovers();
+
 
     // Using comparatives to check for a leap year, if else statements
-
+/*
     function isLeap() {
       var year = prompt("Enter the year");
     
@@ -114,7 +115,7 @@ function bmiCalc(weight, height) {
       }
     }
     
-    isLeap();
+    isLeap();*/
 
     // lesson on arrays and using the .include functiom
 
@@ -177,3 +178,25 @@ while (numberOfBottles >= 0) {
 	numberOfBottles--;
     console.log(numberOfBottles + " " + bottleWord + " of beer on the wall.");
 }
+
+// fibonacci task
+
+function fibonacciGenerator(n) {
+
+  var output = [];
+  if (n === 1) {
+    ouptut = [0];
+  } else if (n === 2) {
+    output = [0, 1];
+  } else {
+    output = [0, 1];
+    for (var i = 2; i < n; i++) {
+output.push(output[output.length - 2] + output[output.length - 1]);
+      }
+    }
+
+    return output;
+  }
+
+  output = fibonacciGenerator(9);
+console.log(output)
