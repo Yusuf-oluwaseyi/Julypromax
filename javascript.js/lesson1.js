@@ -200,3 +200,51 @@ output.push(output[output.length - 2] + output[output.length - 1]);
 
   output = fibonacciGenerator(9);
 console.log(output)
+
+// passing functions into functions (Higher order function)
+
+function add(num1,num2){
+  return num1 + num2;
+}
+
+function subtract(num1,num2) {
+  return num1 - num2;
+}
+
+function multiply(num1,num2) {
+  return num1 * num2;
+}
+
+function divide(num1,num2) {
+  return num1 / num2;
+}
+
+function module(num1,num2) {
+  return num1 % num2;
+}
+
+function calculator(num1,num2,operator) {
+  return operator(num1,num2);
+}
+calculator(3,8,multiply);
+
+// creating objects
+var houseHelp = {
+  name: "Vivian",
+  age: 23,
+  color: "brown",
+  origin: "Mexico",
+  language: ["English", "Yoruba"]
+}
+
+alert("I'm your new househelp, " + "my name is " + houseHelp.name);
+
+// creating constructor function and initializing it.
+
+function HouseHelp(name, age, language, color) {
+    this.name = "Lucy";
+    this.age = 22;
+    this.language = ["French", "German", "English"];
+}
+
+var houseHelp1 = new HouseHelp("Phoebe", 21, "English", "white");
