@@ -248,3 +248,29 @@ function HouseHelp(name, age, language, color) {
 }
 
 var houseHelp1 = new HouseHelp("Phoebe", 21, "English", "white");
+
+// creating more obejects and constructoor function
+function HouseHelp(name, age, language, color) {
+  this.name = name;
+  this.age = age;
+  this.language = language;
+}
+
+var houseHelp1 = new HouseHelp("Phoebe", 21, "English", "white");
+
+var houseHelp2 = new HouseHelp("Vivian", "23", ["English", "French"], "Brown");
+
+console.log(houseHelp2.language);
+console.log(houseHelp1.name);
+
+// Learning about the switch statement
+switch (button) {
+  case "expression":
+    // code expression
+    var kick = new Audio('sounds/kick.mp3');
+    kick.play();
+    break;
+
+
+    default:
+}
