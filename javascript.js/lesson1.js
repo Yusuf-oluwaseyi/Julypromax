@@ -228,6 +228,8 @@ function calculator(num1,num2,operator) {
 }
 calculator(3,8,multiply);
 
+// you can use the "debugger;" to see how procedures are taken in your file
+
 // creating objects
 var houseHelp = {
   name: "Vivian",
