@@ -427,6 +427,11 @@ body {
     background-color: #11413d;
 }
 
+#newsletter .form {
+    display: flex;
+    width: 50%;
+}
+
 #newsletter h4 {
     color: #fff;
     font-size: 22px;
@@ -451,4 +456,73 @@ body {
     border: 1px solid transparent;
     border-radius: 4px;
     outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter button {
+    background-color: #088178;
+    color: #fff;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-left: 5px;
+}
+
+/* footer design section */
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .logo {
+    margin-bottom: 20px;
+}
+
+footer h4 {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+footer a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer a:hover {
+    color: #088178;
+    text-decoration: none;
+}
+
+footer .icon {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer .follow i {
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .install .row img {
+    border: 1px solid #088178;
+    border-radius: 6px;
 }
