@@ -540,6 +540,10 @@ footer .install .row img {
 
 /* Media query */
 @media (max-width:810px) {
+    /* Tablet size */
+    .section-p1 {
+        padding: 40px 40px;
+    }
     #navbar {
         display: flex;
         flex-direction: column;
@@ -548,7 +552,7 @@ footer .install .row img {
         position: fixed;
         top: 0;
         right: -300px;
-        height: 100vh;
+        height: 30vh;
         width: 300px;
         background-color: #cdd4f8;
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
@@ -576,6 +580,7 @@ footer .install .row img {
     }
 
     #close {
+        display: initial;
         color: #222;
         position: absolute;
         top: 20px;
@@ -586,4 +591,39 @@ footer .install .row img {
     #lg-bag {
         display: none;
     }
+
+    /* hero section */
+    #hero {
+        height: 70vh;
+        background-position: top 30% right 30%;
+        padding: 0 80px;
+    }
+/* features */
+    #feature {
+        justify-content: center;
+    }
+    #feature .fe-box {
+        margin: 15px 15px;
+    }
+/* products */
+    #product1 .pro-container {
+        justify-content: center;
+    }
+    #product1 .pro {
+        margin: 15px;
+    }
+    #banner {
+        height: 20vh;
+    }
+    #sm-banner .banner-box {
+        min-width: 100%;
+        height: 30vh;
+    }
+    #banner3 {
+        padding: 0 40px;
+    }
+    #banner3 .banner-box {
+        width: 28%;
+    }
+    /* Mobile size */
 }
