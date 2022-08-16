@@ -625,5 +625,34 @@ footer .install .row img {
     #banner3 .banner-box {
         width: 28%;
     }
-    /* Mobile size */
+
+}
+/* Mobile size */
+@media (max-width: 477px) {
+    .section-p1 {
+        padding: 20px;
+    }
+    #navbar {
+        height: 40vh;
+    }
+    #header {
+        padding: 10px 30px;
+    }
+    #hero {
+        padding: 0 20px;
+        background-position: 55%;
+    }
+    h1 h2 {
+        font-size: 35px;
+    }
+    #feature {
+        justify-content: space-between;
+    }
+    #feature .fe-box {
+        margin: 0 0 15px 0;
+        width: 155px;
+    }
+    #product1 .pro {
+        width: 100%;
+    }
 }
